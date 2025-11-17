@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript - Funções</title>
+
+    <!--Links externos-->>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../JavaScriptFunctions/assets/js logo.png" type="image/png"><!--Icone do navegador-->
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Exercícios JavaScript - Funções e Lógica</h1>
+        
+        <!-- Exercício 1 -->
+        <div class="exercicio">
+            <h3>1. Verificador de Idade para Habilitação</h3>
+            <div class="input-group">
+                <label>Digite sua idade abaixo:</label>
+                <!--Entrada da idade-->
+                <input type="number" id="idade" placeholder="Ex: 18">
+            </div>
+            <button onclick="testarEx1()">Verificar</button>
+            <div class="resultado" id="result1"></div>
+        </div>
+        
+        <!-- Exercício 2 -->
+        <div class="exercicio">
+            <h3>2. Determinar o maior número entre os três </h3>
+            <div class="input-group">
+                <label>Número 1:</label>
+                <!--Entrada do primeiro número -->
+                <input type="number" id="num1" placeholder="Ex: 10">
+            </div>
+            <div class="input-group">
+                <label>Número 2:</label>
+                <!--Entrada do segundo número-->
+                <input type="number" id="num2" placeholder="Ex: 25">
+            </div>
+            <div class="input-group">
+                <label>Número 3:</label>
+                <!--Entrada do terceiro número-->
+                <input type="number" id="num3" placeholder="Ex: 15">
+            </div>
+            <button onclick="testarEx2()">Encontrar maior</button>
+            <div class="resultado" id="result2"></div>
+        </div>
+        
+        <!-- Exercício 3 -->
+        <div class="exercicio">
+            <h3>3. Classificador de moedas</h3>
+            <div class="input-group">
+                <label>Selecione a moeda:</label>
+                <!--Seleção do tipo da moeda-->
+                <select id="moeda">
+                    <option value="">Escolha...</option>
+                    <option value="0.01">R$ 0,01</option>
+                    <option value="0.05">R$ 0,05</option>
+                    <option value="0.10">R$ 0,10</option>
+                    <option value="0.25">R$ 0,25</option>
+                    <option value="0.50">R$ 0,50</option>
+                    <option value="1.00">R$ 1,00</option>
+                </select>
+            </div>
+            <button onclick="testarEx3()">Classificar</button>
+            <div class="resultado" id="result3"></div>
+        </div>
+        
+        <!-- Exercício 4 -->
+        <div class="exercicio">
+            <h3>4. Verificador de senha (Critérios Múltiplos)</h3>
+            <div class="input-group">
+                <label>Digite uma senha:</label>
+                <!--Entrada da senha-->
+                <input type="password" id="senha" placeholder="Mínimo 8 caracteres">
+            </div>
+            <button onclick="testarEx4()">Verificar Senha</button>
+            <div class="resultado" id="result4"></div>
+        </div>
+        
+        <!-- Exercício 5 -->
+        <div class="exercicio">
+            <h3>5. Alerta de temperatura</h3>
+            <div class="input-group">
+                <label>Temperatura (°C):</label>
+                <!--Entrada da temperatura-->
+                <input type="number" id="temp" placeholder="Ex: 22">
+            </div>
+            <button onclick="testarEx5()">Verificar</button>
+            <div class="resultado" id="result5"></div>
+        </div>
+        
+        <!-- Exercício 6 -->
+        <div class="exercicio">
+            <h3>6. Classificador de dia da semana</h3>
+            <div class="input-group">
+                <label>Número do dia (1-7):</label>
+                <!--Entrada do número do dia-->
+                <input type="number" id="dia" min="1" max="7" placeholder="Ex: 1 para Domingo">
+            </div>
+            <button onclick="testarEx6()">Descobrir Dia</button>
+            <div class="resultado" id="result6"></div>
+        </div>
+        
+        <!-- Exercício 7 -->
+        <div class="exercicio">
+            <h3>7. Tipo de triângulo</h3>
+            <div class="input-group">
+                <label>Lado 1:</label>
+                <!--Entrada do lado 1-->
+                <input type="number" id="lado1" placeholder="Ex: 5">
+            </div>
+            <div class="input-group">
+                <label>Lado 2:</label>
+                <!--Entrada do lado 2-->
+                <input type="number" id="lado2" placeholder="Ex: 5">
+            </div>
+            <div class="input-group">
+                <label>Lado 3:</label>
+                <!--Entrada do lado 3-->
+                <input type="number" id="lado3" placeholder="Ex: 5">
+            </div>
+            <button onclick="testarEx7()">Classificar triângulo</button>
+            <div class="resultado" id="result7"></div>
+        </div>
+        
+        <!-- Exercício 8 -->
+        <div class="exercicio">
+            <h3>8. Gerador de nome completo</h3>
+            <div class="input-group">
+                <!--Entrada do primeiro nome-->
+                <label>Primeiro Nome:</label>
+                <input type="text" id="primeiroNome" placeholder="Ex: Ana">
+            </div>
+            <div class="input-group">
+                <label>Sobrenome:</label>
+                <!--Entrada do sobrenome-->
+                <input type="text" id="sobrenome" placeholder="Ex: Silva">
+            </div>
+            <button onclick="testarEx8()">Gerar Nome</button>
+            <div class="resultado" id="result8"></div>
+        </div>
+        
+        <!-- Exercício 9 -->
+        <div class="exercicio">
+            <h3>9. Calculadora de média (Dois Valores)</h3>
+            <div class="input-group">
+                <label>Nota 1:</label>
+                <!--Entrada da primeira nota-->
+                <input type="number" id="nota1" step="0.1" placeholder="Ex: 7.5">
+            </div>
+            <div class="input-group">
+                <label>Nota 2:</label>
+                <!--Entrada da segunda nota-->
+                <input type="number" id="nota2" step="0.1" placeholder="Ex: 8.0">
+            </div>
+            <button onclick="testarEx9()">Calcular Média</button>
+            <div class="resultado" id="result9"></div>
+        </div>
+        
+        <!-- Exercício 10 -->
+        <div class="exercicio">
+            <h3>10. Formatação de telefone simples</h3>
+            <div class="input-group">
+                <label>Telefone (9 dígitos):</label>
+                <!--Entrada do telefone-->
+                <input type="text" id="telefone" maxlength="9" placeholder="Ex: 998877669">
+            </div>
+            <button onclick="testarEx10()">Formatar</button>
+            <div class="resultado" id="result10"></div>
+        </div>
+    </div>
+
+    <!--Js externo-->
+    <script src="script.js"></script>
+</body>
+</html>
