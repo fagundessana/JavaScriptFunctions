@@ -110,3 +110,9 @@ Retorno: `"9988-7766"`
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+---
+👩‍💻 Autoria
+
+Ana Beatriz Araujo Fagundes
+Estudante de Desenvolvimento de Sistemas (AMS) – ETEC Zona Leste
