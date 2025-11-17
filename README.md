@@ -112,7 +112,10 @@ Retorno: `"9988-7766"`
 git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 ---
-👩‍💻 Autoria
+### 👩‍💻 Autoria
 
-Ana Beatriz Araujo Fagundes
+**Ana Beatriz Araujo Fagundes**  
 Estudante de Desenvolvimento de Sistemas (AMS) – ETEC Zona Leste
+
+
+---
