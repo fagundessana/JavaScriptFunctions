@@ -11,7 +11,7 @@ O objetivo da atividade é praticar raciocínio lógico e consolidar o uso de fu
 - Praticar lógica de programação com JavaScript  
 - Utilizar **funções**, **condicionais**, **comparações** e **operações básicas**  
 - Organizar o código de forma clara e funcional  
-- (Opcional) Criar interface com HTML + CSS para interação com o usuário
+- Criar interface com HTML + CSS para interação com o usuário
 
 ---
 
