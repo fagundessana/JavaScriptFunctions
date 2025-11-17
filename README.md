@@ -56,7 +56,6 @@ Retornos:
 - Vinte e Cinco Centavos  
 - Cinquenta Centavos  
 - Um Real  
-- `"Valor Desconhecido"`
 
 <img width="1287" height="395" alt="image" src="https://github.com/user-attachments/assets/ff3a7d5c-a785-43a2-8bd5-da0a63949079" />
 <img width="1239" height="355" alt="image" src="https://github.com/user-attachments/assets/02115dd3-edab-4b36-a5d9-ee01c340bd78" />
